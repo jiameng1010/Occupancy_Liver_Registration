@@ -1,0 +1,28 @@
+basics:
+  dataset_root: /media/mjia/Data2nd/Research/NonRigid_Registration/exp_out/occu_flow_registration
+  exp_out_dir: /media/mjia/Data2nd/Research/NonRigid_Registration/exp_out/occu_flow_registration
+  traindata_out_dir: training_data
+  validationdata_out_dir: validation_data
+  total_training: 1000
+  total_validation: 200
+
+deformation_randomness:
+  Young: 1.0e4
+  Poisson: 0.4
+  Gaussian_scale: 0.5
+sample_para:
+  bbox_padding: 0.15
+  num_onsurface_points: 8192
+  num_around_surface: 8192
+  Gaussian_scale: 0.007
+  num_uniform: 8192
+
+training:
+  batch_size: 4
+  num_points1: 200
+  num_points2: 300
+  num_sample_points: 1000
+  around_uniform_ratio: 0.6
+  do_rotation: 1
+  scale_to: 0.5
+

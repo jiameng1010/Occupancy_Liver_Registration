@@ -1,0 +1,18 @@
+basics:
+  exp_out_dir: /media/mjia/Data2nd/Research/NonRigid_Registration/exp_out/occu_flow_registration/
+  traindata_out_dir: training_data
+  validationdata_out_dir: validation_data
+  total_training: 1201
+  total_validation: 200
+deformation_randomness:
+  Young: 1000000.0
+  Poisson: 0.49
+  Gaussian_scale: 0.5
+sample_para:
+  bbox_padding: 0.15
+  num_onsurface_points: 8192
+  num_around_surface: 8192
+  Gaussian_scale: 0.007
+  num_uniform: 8192
+  
+
